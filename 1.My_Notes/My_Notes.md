@@ -20,12 +20,14 @@ alias sysupdate='sudo dnf -y update'
 alias c='clear'
 alias l='ls -laFtr --color=auto --group-directories-first'
 alias ping='ping -c 5'
-alias docker='ssh boss@192.168.56.101'
-alias kali='ssh kali@192.168.208.130'
 alias ports='ss -tulanp'
 alias shut='sudo shutdown now'
-PS1='$ ' 
+PS1='$'
+alias ans='ssh boss@192.168.54.131'
+alias ubuntu='ssh boss@192.168.54.130'
+alias fedora='ssh boss@192.168.54.128'
 ```
+ansible ALL=(ALL) NOPASSWD: ALL
 head etwas.txt shows first 10 line of the file
 tail etwas.txt shows last 10 line of the file
 tail -n 20 etwas.txt
