@@ -1,5 +1,5 @@
-```bashbash
-sudo findddddddd  / -size +10M > /tmp/bigfiles # 10mb den büyük dosyalari bulup yazdirdik. 
+```bash
+sudo find  / -size +10M > /tmp/bigfiles # 10mb den büyük dosyalari bulup yazdirdik. 
 ```
 ```bash
 ln /tmp/bsiles /bfiles # hardlink created 
