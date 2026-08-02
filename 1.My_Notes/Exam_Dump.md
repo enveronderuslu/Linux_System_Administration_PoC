@@ -1,4 +1,4 @@
-```bash
+```bashbash
 sudo find  / -size +10M > /tmp/bigfiles # 10mb den büyük dosyalari bulup yazdirdik. 
 ```
 ```bash
