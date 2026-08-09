@@ -94,7 +94,7 @@ Shortly systemd is the service management. Systemd is the primary service manage
 systemd-analyze         # Shows total boot time
 systemd-analyze blame   # Shows time taken by each service to start
 /usr/lib/systemd/system # Default system unit files (installed by packages)
-/etc/systemd/system     # User-defined unit files and customizations
+/etc/systemd/system     # User-defined unit files
 ```
 
 ### Best Practices
@@ -189,7 +189,7 @@ systemctl disable <unit> # Prevents boot-time start. Disabling unused services
 
 systemctl daemon-reload # Reloads unit files after edits.
 
-systemctl set-default <target> # Sets system boot target. Use case: Switching to `multi-user.target`.
+systemctl set-default <target> # Sets system boot target. 
 
 systemctl get-default # Displays current default target.  
 ```
@@ -517,7 +517,7 @@ OnCalendar=*-*-* 05:00:00: It means:
 *-*-*: Any year, month, or day of the month.
 05:00:00: Exactly 5 AM .
 Unit=goodmorning.service: Specifies which service unit to activate when the timer expires.
-Install: Specifies that the timer should be active for the timers.target.
+Install: Specifies that the timer should be active for the timers.target. 
 
 ```bash
 sudo systemctl daemon-reload
@@ -525,10 +525,6 @@ sudo systemctl enable goodmorning.timer
 sudo systemctl start goodmorning.timer
 systemctl status goodmorning.timer # Verify the Timer
 ```
-eski usül;
-log in as bob and then run `crontab -e` and write `0 5 * * * /usr/bin/logger "good morning"`. Veya `sudo nano /etc/crontab` icinde degistir
-
-
 ---
 
 
