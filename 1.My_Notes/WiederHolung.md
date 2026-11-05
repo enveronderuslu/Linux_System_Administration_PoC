@@ -7,7 +7,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub target_user@target-IP
 ```
   
 ```bash
-alias sysupdate='dnf -y update'
+alias sysupdate='sudo apt update && sudo apt upgrade'
 alias c='clear'
 alias l='ls -laFtr  --color=no'
 alias ping='ping -c 5'
