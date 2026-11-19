@@ -15,7 +15,7 @@ alias ports='ss -tulanp'
 alias shut='sudo shutdown now'
 PS1='$ '
 ```
-
+test test test tttttttttttttttttttt
 ```bash
 systemd-analyze + blame # makinenin baslamasi icin süre + detaylat 
 /usr/lib/systemd/system # services are here
