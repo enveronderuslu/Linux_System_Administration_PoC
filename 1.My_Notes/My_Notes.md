@@ -1,4 +1,6 @@
-**Linux System Basics (Red Hat–based System)** 
+[toc]
+
+
 
 # System and Hardware Info
 
@@ -292,7 +294,7 @@ After=network.target
 - `graphical.target`
 
 ---
- 
+
 
 # Package Management with DNF
 ## Commands
@@ -924,7 +926,7 @@ If the system fails to boot:
 * `/pattern`: Search forward for a pattern; `n` for next match.
 * `cw`: Change word (deletes word and enters insert mode).
 ---
- 
+
 # Miscellaneous Utilities and Configuration
 
 ### Quick Reference Commands
